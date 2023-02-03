@@ -33,8 +33,7 @@ namespace Worker
 
             public override void Print()
             {
-                Console.WriteLine("Имя " + name);
-                Console.WriteLine("Время начала работы " + start);
+                base.Print();
                 Console.WriteLine("Должность " + job_title);
                 Console.WriteLine();
             }
@@ -50,8 +49,7 @@ namespace Worker
 
                 public override void Print()
                 {
-                    Console.WriteLine("Имя " + name);
-                    Console.WriteLine("Время начала работы " + start);
+                    base.Print();
                     Console.WriteLine("Место работы " + place_of_work);
                     Console.WriteLine();
                 }
@@ -68,8 +66,7 @@ namespace Worker
 
                 public override void Print()
                 {
-                    Console.WriteLine("Имя " + name);
-                    Console.WriteLine("Время начала работы " + start);
+                    base.Print();
                     Console.WriteLine("Группа " + group);
                     Console.WriteLine();
                 }
@@ -86,8 +83,7 @@ namespace Worker
 
                 public override void Print()
                 {
-                    Console.WriteLine("Имя " + name);
-                    Console.WriteLine("Время начала работы " + start);
+                    base.Print();
                     Console.WriteLine("Стаж работы " + work_expirience);
                     Console.WriteLine();
                 }
